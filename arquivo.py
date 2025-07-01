@@ -19,10 +19,10 @@ print("Olá! Bem-vindo ao Livarte.")
 while True:
     print("_______________________________")
     print("\nMenu de Opções:")
-    print("1 - Calculadora de áreas")
+    print("1 - Calculadora de Áreas")
     print("2 - Conversor de Escalas")
-    print("3 - Gerador de orçamento básico")
-    print("4 - Gráficos de projeto")
+    print("3 - Gerador de Orçamento Básico")
+    print("4 - Gráficos de Projeto")
     print("5 - Encerrar")
 
     while True:
@@ -237,6 +237,7 @@ while True:
                         plt.axis('equal')
                         plt.show()
                         break
+                break
             
             elif opcaoGrafico == 2:
 
@@ -276,6 +277,7 @@ while True:
                     plt.tight_layout()
                     plt.show()
                     break
+                break
             
             elif opcaoGrafico == 3:
 
