@@ -193,13 +193,15 @@ while True:
                 print(f"\nOpção inválida! Digite um número inteiro entre 1 e 2.")
                 
     elif opcao == 4:
-        print("--- Livarte | Gráficos de Projeto ---")
-        print("\nMenu de Gráficos:")
-        print("1 - Distribuição de áreas")
-        print("2 - Orçamento por categoria")
-        print("3 - Cronograma do projeto")
 
         while True:
+
+            print("\n--- Livarte | Gráficos de Projeto ---")
+            print("\nMenu de Gráficos:")
+            print("0 - Voltar para o Menu Principal")
+            print("1 - Distribuição de Áreas")
+            print("2 - Orçamento por Categoria")
+            print("3 - Cronograma do Projeto")
 
             while True:
                 try:
@@ -209,7 +211,11 @@ while True:
                     print("Opção inválida. Tente novamente.")
                     continue
 
-            if opcaoGrafico == 1:
+            if opcaoGrafico == 0:
+                print("\nVoltando para o menu principal...")
+                break
+
+            elif opcaoGrafico == 1:
 
                 print("\n--- Gráfico de Distribuição de Áreas ---")
 
@@ -237,8 +243,7 @@ while True:
                         plt.axis('equal')
                         plt.show()
                         break
-                break
-            
+
             elif opcaoGrafico == 2:
 
                 print("\n--- Gráfico de Orçamento por Categoria ---")
@@ -277,7 +282,6 @@ while True:
                     plt.tight_layout()
                     plt.show()
                     break
-                break
             
             elif opcaoGrafico == 3:
 
@@ -324,6 +328,7 @@ while True:
 
                 plt.tight_layout()
                 plt.show()
+                break
 
             else:
                 print("Opção inválida! Digite um número inteiro entre 1 e 3.")
