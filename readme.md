@@ -1,6 +1,6 @@
 # LIVARTE 🏛️
 
-![Badge de Status](https://img.shields.io/badge/Status-Desenvolvimento-brightgreen)
+![Badge de Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-brightyellow)
 
 O Livarte é uma aplicação em Python desenvolvida para **auxiliar e automatizar tarefas básicas** de profissionais das áreas de arquitetura e
 design de interiores, além de atender pessoas que estão reformando suas casas. A ferramenta oferece uma maneira *prática e acessível* de
